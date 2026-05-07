@@ -12,6 +12,7 @@ body {
     box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.688);
     border-radius: 10px;
     padding: 3px;
+    margin: 20px;
 }
 .div_01{
     border-radius: 10px;
@@ -113,10 +114,10 @@ main{
 }
 .Projeto_div a:hover{
     color: rgb(0, 0, 0);
-    background-color: rgb(236, 159, 104);
+    background-color: rgb(172, 238, 253);
 }
 .Projeto_div a:active{
-    color: rgb(171, 47, 47);
+    color: rgb(0, 0, 0);
     background-color: rgb(23, 40, 69);
 }
 .ctt {
@@ -133,4 +134,16 @@ main{
     flex: 3;
     background-color: rgb(23, 40, 69);
     height: 300px;
+}
+.hr {
+    border: none;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 20px 0;
+}
+.div_project {
+    background-color: rgb(23, 40, 69);
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 10px;
 }
