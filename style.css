@@ -73,11 +73,11 @@ nav a {
     padding: 3px;
 }
 nav a:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(17, 67, 117);
+    color: rgb(0, 0, 0);
+    background-color: rgb(172, 238, 253);
 }
 nav a:active{
-    color: rgb(0, 0, 0);
+    color:  rgb(5, 89, 179);
     background-color: rgb(23, 40, 69);
 }
 nav{
@@ -117,11 +117,8 @@ main{
     background-color: rgb(172, 238, 253);
 }
 .Projeto_div a:active{
-    color: rgb(0, 0, 0);
+    color:  rgb(5, 89, 179);
     background-color: rgb(23, 40, 69);
-}
-.ctt {
-    
 }
 .container{
     position: fixed;
@@ -146,4 +143,16 @@ main{
     padding: 20px;
     color: #ffffff;
     border-radius: 10px;
+}
+.Conteudo_main a { 
+    color: #ffffff;
+    text-decoration: none;
+}
+.Conteudo_main a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(172, 238, 253);
+}
+.Conteudo_main a:active {
+    color: rgb(5, 89, 179);
+    background-color: rgb(23, 40, 69);
 }
